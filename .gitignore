@@ -1,0 +1,54 @@
+.vs/
+# .vs directory
+.vs/
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Auto-generated files
+bin/
+obj/
+
+# Visual Studio Code directory
+.vscode/
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+*~
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Python-specific files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.egg
+*.egg-info/
+*.env
+.env
+*.venv
+.venv
+
+# Node.js-specific files
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Other
+.idea/
+*.iml
+*.class
