@@ -2,12 +2,12 @@ public class Solution
 {
     public bool IsAnagram(string s, string t)
     {
-        char[] dizi=t.ToCharArray();
+       
         if(t.Length==s.Length){
         for(int i = 0; i < t.Length; i++)
         {
             
-           s= elemanDegistir(s,dizi[i],'0');
+           s= elemanDegistir(s,t[i],'0');
         }
         for(int a = 0; a < s.Length; a++)
         {
