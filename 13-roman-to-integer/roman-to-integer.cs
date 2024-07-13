@@ -11,7 +11,7 @@ public class Solution {
         rakamlar.Add('C',100 );
         rakamlar.Add('D',500 );
         rakamlar.Add('M',1000 );
-        for(int i=s.Length-1;i>=0;i--){
+         for(int i=s.Length-1;i>=0;i--){
            int simdikiDeger=rakamlar[s[i]];
            if(simdikiDeger<onceki){
             sum-=simdikiDeger;
