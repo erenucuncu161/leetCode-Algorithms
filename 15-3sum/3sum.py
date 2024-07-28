@@ -1,10 +1,10 @@
 class Solution(object):
     def threeSum(self,nums):
-        nums.sort()  # İlk olarak diziyi sıralıyoruz
+        nums.sort()  
         dizi = []
     
         for i in range(len(nums) - 2):
-            if i > 0 and nums[i] == nums[i - 1]:  # Aynı elemandan kaçınmak için kontrol
+            if i > 0 and nums[i] == nums[i - 1]: 
                 continue
             
             left, right = i + 1, len(nums) - 1
